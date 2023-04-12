@@ -1,0 +1,95 @@
+
+body {
+    background-color: #500;
+}
+
+#logo {
+    color: #f80;
+    font-weight: bold;
+}
+p {
+    color: #fff;
+    margin: 0px 5px;
+}
+
+h3 {
+    color: #fff;
+    margin: 5px 5px;
+}
+h4 {
+    background-color: #999;
+    padding: 4px
+}
+
+.carousel-inner {
+    padding: 15px;
+}
+
+
+.card {
+    max-width: 360px;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.card-body {
+    padding: 2px 0px;
+    margin: 10px 0px;
+}
+
+.card-text0 {
+    color: #000; 
+    font-size: 20px;
+    font-weight: bold;
+    /* background-color: #fff;  */
+}
+
+.card-text1 {
+    color: #b00;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.card-text2 {
+    color: #000; 
+    font-size: 16px;
+}
+
+.card-text3 {
+    color: #000; 
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.divisor {
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px #000;
+    margin: 20px 0px 10px 0px;
+    background-color: #f00;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.portada{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mapa{
+    max-width: 825px;
+    margin-left: auto;
+    margin-right: auto;
+}
