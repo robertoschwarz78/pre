@@ -1,15 +1,17 @@
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import Home from '../components/Home/Home.js';
-import Characters from '../components/Characters/Characters';
-import Contact from '../components/Contact/Contact';
+import Menu from '../components/Menu/Menu.js';
+import Contact from '../components/Contact/Contact.js';
+import Admin from '../components/Admin/Admin.js';
 
 export default function Router(){
     return(
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<Home/>}/>
-                <Route path='/characters' element={<Characters/>}/>
+                <Route path='/menu' element={<Menu/>}/>
                 <Route path='/contact' element={<Contact/>}/>
+                <Route path='/admin' element={<Admin/>}/>
             </Routes>
         </BrowserRouter>
     )

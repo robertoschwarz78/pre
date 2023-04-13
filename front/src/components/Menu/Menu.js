@@ -1,7 +1,7 @@
 import {useEffect, useState} from 'react';
 import { Fragment } from 'react';
 
-import "./Characters.css";
+import "./Menu.css";
 import Navegation from '../Navegation/Navegation';
 import Filters from "../Filters/Filters";
 import SectionCards from "../SectionCards/SectionCards";
@@ -37,7 +37,7 @@ export default function Characters() {
         }
     }
     const traerInfo = async()=>{
-        let info = await fetch("https://rickandmortyapi.com/api/character")
+        let info = await fetch("https://rickandmortyapi.com/api/character") // aca va la api propia
                         .then(respuesta => respuesta.json())
                         .catch(error => console.log("HAY UN ERROR!!" +error))
         return info
@@ -63,11 +63,9 @@ export default function Characters() {
             <section className='sector-filtros'>
                 <h2>Filtros</h2>
                 <div className='filtros d-flex justify-content-between flex-wrap'>
-                    <Filters nombreFiltro="Vivos" datoFiltro="Alive" muestraValor={mostrarValor}/> 
-                    <Filters nombreFiltro="Muertos" datoFiltro="Dead" muestraValor={mostrarValor}/> 
-                    <Filters nombreFiltro="Mujeres" datoFiltro="Female" muestraValor={mostrarValor}/> 
-                    <Filters nombreFiltro="Hombres" datoFiltro="Male" muestraValor={mostrarValor}/> 
-                    <Filters nombreFiltro="Origen desconocido" datoFiltro="unknown" muestraValor={mostrarValor}/> 
+                    <Filters nombreFiltro="Comida" datoFiltro="Alive" muestraValor={mostrarValor}/> 
+                    <Filters nombreFiltro="Bebida" datoFiltro="Dead" muestraValor={mostrarValor}/> 
+                    <Filters nombreFiltro="Postres" datoFiltro="Female" muestraValor={mostrarValor}/> 
                 </div>
             </section>
                           

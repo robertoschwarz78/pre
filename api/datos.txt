@@ -1,0 +1,21 @@
+// datos que van a ser cargados en una base de datos
+
+COMIDAS
+
+"./imagenes/bife.jpg","Hamburguesa","Completa","Lechuga, tomate, queso"
+"./imagenes/bife.jpg" Bife Con papas fritas Pedilo cocido o jugoso
+"./imagenes/pancho.jpg"  2 Panchos Porque uno no alcanza Aderezos a elección
+"./imagenes/picada.jpg"  Picada Para compartir Fiambres y quesos
+"./imagenes/tostado.jpg" Tostado Triple de miga Jamon y queso
+"./imagenes/ensalada.jpg" Ensalada Fresca para el verano Tomate, lechuga, cebolla
+
+BEBIDAS
+"./imagenes/coca.jpg" Gaseosa Cola En un vaso de 300 cc normal, sin azucar o light
+"./imagenes/agua.jpg" Agua Botellita 500 cc con o sin gas
+"./imagenes/birra.jpg"  Cerveza Media pinta rubia o roja
+
+
+POSTRES
+
+"./imagenes/flan.jpg" Flan Con dulce de leche esponjoso y rico
+"./imagenes/frutas.jpg" Ensalada de frutas Con frutas de estación con o sin crema
